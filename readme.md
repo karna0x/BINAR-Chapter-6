@@ -4,12 +4,14 @@ Install Required Dependencies
 
 2. npm install sequelize pg express
 
-3. sequelize db:create
+3. match config.json data with your configuration
 
-4. sequelize db:migrate
+4. sequelize db:create
+   
+5. sequelize db:migrate
 
-3. npm run start
+6. npm run start
 
-4. superadmin
+7. superadmin
    username :admin,
    password:admin
