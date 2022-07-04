@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <header class="main">
+        <a id="main-title">ROCK PAPER SCISSORS</a>
+        <div class="container" id="hero=main">
+            <div class="button" id="player">
+                <h1 class="player-name">PLAYER</h1>
+                <section class="choose">
+                    <div class="options">
+                        <input type="image" data-option="rock" src="./assets/batu.png" class="img" width=80vh>
+                        <input type="image" data-option="paper" src="./assets/kertas.png" class="img" width=70vh>
+                        <input type="image" data-option="scissors" src="./assets/gunting.png" class="img" width=80vh>
+                    </div>
+                </section>
+            </div>
+            <div class="hasil">
+                <div class="results">
+                    <div class="init">VS</div>
+                    <div class="you-win">PLAYER 1<br>WIN</div>
+                    <div class="pc-win">COM<br>WIN</div>
+                    <div class="draw">DRAW</div>
+                </div>
+                <div type="image" value="Reload Page" onClick="document.location.reload(true)">
+                    <img src="./assets/refresh.png" width=55vh>
+                </div>
+            </div>
+            <div class="button" id="COM">
+                <h1 class="player-name">COM</h1>
+                <div class="options">
+                    <input type="image" data-option="rock1" src="./assets/batu.png" class="img" width=80vh>
+                    <input type="image" data-option="paper1" src="./assets/kertas.png" class="img" width=70vh>
+                    <input type="image" data-option="scissors1" src="./assets/gunting.png" class="img" width=80vh>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <script src="game.js"></script>
+</body>
+
+</html>

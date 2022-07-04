@@ -1,0 +1,128 @@
+body {
+    background-color: #9e814f;
+    height: 100vh;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+}
+
+#main-title {
+    color: #F9B23D;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+#main-title {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.img {
+    width: 15vh !important;
+    max-width: 150%;
+    border: 1em transparent solid !important;
+
+}
+
+.img[data-option=paper],
+.img[data-option=paper1] {
+    width: 13vh !important;
+    max-width: 150%;
+    border: 1em transparent solid !important;
+
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50vh;
+}
+
+#player {
+    grid-column: 1;
+    align-content: flex-end;
+    padding-inline-start: 20vh;
+}
+
+.hasil {
+    grid-column: 2;
+}
+
+#COM {
+    grid-column: 3;
+    padding-inline-end: 20vh;
+}
+
+.hasil {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: [row1-start] 90% [row1-end] auto [last-line];
+    ;
+    height: 80vh;
+}
+
+.player-selection:hover {
+    transform: scale(1.2)
+}
+
+.results {
+    padding-top: 15em;
+}
+
+.init {
+    color: #BD0000;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+.you-win,
+.pc-win,
+.draw {
+    display: none;
+    font-size: 2.5vw;
+    text-align: center;
+    height: 4em;
+    align-items: center;
+    justify-content: center;
+    width: 7em;
+    border-radius: 5.5%;
+    color: white;
+    border: solid #4C9654 2px;
+    background-color: #4C9654;
+    transform: rotate(-28.87deg);
+}
+
+.draw {
+    border: solid #035B0C 2px;
+    background-color: #035B0C;
+}
+
+.player-choice,
+.pc-choice {
+    background-color: #C4C4C4;
+    border-radius: 15%;
+    border: #C4C4C4 100px;
+}

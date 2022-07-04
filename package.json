@@ -1,5 +1,5 @@
 {
-  "name": "challenge",
+  "name": "challenge chapter 6",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.8",
     "express": "^4.18.1",
     "nodemon": "^2.0.18",
     "pg": "^8.7.3",

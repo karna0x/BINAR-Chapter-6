@@ -17,7 +17,7 @@ module.exports = (sequelize, DataTypes) => {
     id_user: DataTypes.INTEGER,
     first_name: DataTypes.STRING,
     last_name: DataTypes.STRING,
-    Birthplace: DataTypes.STRING
+    birthplace: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'user_game_biodata',

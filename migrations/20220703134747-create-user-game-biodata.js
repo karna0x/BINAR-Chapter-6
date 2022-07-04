@@ -9,6 +9,7 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       id_user: {
+        allowNull: false,
         type: Sequelize.INTEGER
       },
       first_name: {
@@ -17,7 +18,7 @@ module.exports = {
       last_name: {
         type: Sequelize.STRING
       },
-      Birthplace: {
+      birthplace: {
         type: Sequelize.STRING
       },
       createdAt: {
