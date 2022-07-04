@@ -7,5 +7,5 @@ Install Required Dependencies
 3. npm run start
 
 4. superadmin
-   username :admin
+   username :admin,
    password:admin
